@@ -39,6 +39,12 @@ h2 {
   position: relative;
   top: -400px;
   left: -25px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {left: 75px;}
+  to {left: -25px;}
 }
 h3 {
   font-family: 'Archivo', sans-serif;
