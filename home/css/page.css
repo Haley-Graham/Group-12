@@ -67,10 +67,44 @@ h3 {
   left: 10px;
 
 }
+#header img {
+  width: 75px;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -520px;
+}
+h4 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 100px;
+  margin-left: 100px;
+  color: #05cdf2;
+  position: relative;
+  top: -600px;
+}
 p {
   font-family: 'Archivo', sans-serif;
-  font-size: ;
-  margin-left: auto;
+  font-size: 125%;
   color: white;
-
+  max-width: 780px;
+  margin-left: 100px;
+  line-height: 150%;
+  position: relative;
+  top: -700px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
