@@ -103,6 +103,17 @@ p {
   display: table;
   clear: both;
 }
+.column img {
+  max-width: 300px;
+  border: 4px solid #05cdf2;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -700px;
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
