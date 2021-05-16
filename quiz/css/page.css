@@ -1,5 +1,5 @@
 body {
-  background-color: #c5bff7;
+  background-image: linear-gradient(#c5bff7,#c5bff7, #05cdf2, #4583f2);
 }
 #menu {
   width: 75px;
@@ -49,6 +49,12 @@ h2 {
   position: relative;
   top: -150px;
   z-index: -1;
+  animation-name: example;
+  animation-duration: 3s;
+  }
+  @keyframes example {
+  from {left: 75px;}
+  to {left: 0px;}
 }
 p{
   font-family: 'Archivo', sans-serif;
